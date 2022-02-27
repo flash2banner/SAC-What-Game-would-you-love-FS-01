@@ -1,0 +1,354 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
+
+*,
+::before,
+::after {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.wrapper {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 1.15;
+  text-align: left;
+  color: #ffffff;
+  background-color: #000000;
+  width: 100%;
+  height: 100%;
+  background-image: url(../img/bg-20.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+  background-size: cover;
+}
+
+.hero {
+  padding-top: 177px;
+  padding-bottom: 33px;
+  position: relative;
+  z-index: 1;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+.hero__container {
+  max-width: 1520px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.hero__inner {
+  display: flex;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+.hero__content {
+  margin-right: 40px;
+  margin-bottom: 30px;
+  max-width: 500px;
+}
+
+.hero__title {
+  margin-bottom: 30px;
+  font-weight: 700;
+  font-size: 95px;
+  line-height: 0.95;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+.hero__subtitle {
+  margin-bottom: 15px;
+  font-weight: 300;
+  font-size: 60px;
+  line-height: 0.95;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+.hero__text-bonus {
+  margin-bottom: 15px;
+  font-weight: 400;
+  font-size: 41px;
+  line-height: 0.95;
+  text-transform: uppercase;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+.hero__text-bonus span {
+  font-weight: 700;
+}
+
+.hero__text-login {
+  margin-bottom: 10px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 0.95;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+.hero__text-login a {
+  font-weight: 700;
+  color: #a5a4ff;
+  text-decoration: underline;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+.hero__text-login a:hover {
+  color: #ffffff;
+}
+
+/* .hero__form {
+} */
+
+.hero__form-title {
+  max-width: 477px;
+  margin-bottom: 35px;
+  font-weight: 300;
+  font-size: 48px;
+  line-height: 1.07;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+.hero__form-title span {
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.hero__form-content {
+  max-width: 450px;
+  padding: 21px;
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+}
+
+.hero__form-content p {
+  margin-bottom: 20px;
+  font-weight: 300;
+  font-size: 25px;
+  line-height: 0.96;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+.hero__form-content input {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  border: 4px solid #ffffff;
+  background-color: #ffffff;
+  outline: none;
+  margin-right: 5px;
+  position: relative;
+  top: 4px;
+}
+
+.hero__form-content input:checked {
+  background-color: #000000;
+}
+
+.hero__form-content input:checked ~ span {
+  color: #ff005c;
+}
+
+.hero__form-content button {
+  padding: 6px 40px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 27px;
+  line-height: 1;
+  color: #ffffff;
+  background: #ff005c;
+  border-radius: 2px;
+  cursor: pointer;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+.hero__form-content button:hover {
+  background: rgba(255, 0, 93, 0.75);
+}
+
+.hero__img {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  right: 0;
+}
+
+.hero__img img {
+  max-width: 100%;
+  display: block;
+}
+
+.hero__steps {
+  display: flex;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+.hero__step {
+  margin-right: 14px;
+  margin-bottom: 14px;
+}
+
+.hero__step-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 322.03px;
+  padding: 8px;
+  background: rgba(0, 0, 0, 0.4);
+  border: 1.5px solid #ff005c;
+  border-radius: 7.5px;
+}
+
+.hero__step-number {
+  min-width: 67px;
+  padding: 8px 0;
+  margin-right: 8px;
+  font-weight: 700;
+  font-size: 71px;
+  line-height: 0.95;
+  text-align: center;
+  color: #ff005c;
+  background: #000000;
+  border-radius: 7.5px;
+}
+
+/* .hero__step-text {
+} */
+
+/* .hero__step-arrow {
+} */
+
+/* ------------------ */
+
+@media (max-width: 1320px) {
+  .hero__inner,
+  .hero__steps {
+    flex-direction: column;
+    margin-left: 15%;
+  }
+}
+
+@media (max-width: 1180px) {
+  .hero__inner,
+  .hero__steps {
+    margin-left: 5%;
+  }
+}
+
+@media (max-width: 1024px) {
+  .hero__inner,
+  .hero__steps {
+    margin-left: 0;
+    align-items: center;
+  }
+
+  .hero__img {
+    position: static;
+    margin-right: 0;
+  }
+
+  .hero__img img {
+    margin-left: auto;
+    margin-right: -15px;
+    margin-top: -150px;
+  }
+
+  .hero__content {
+    margin-right: 0;
+    text-align: center;
+  }
+
+  .hero__content {
+    max-width: 500px;
+  }
+
+  .hero__form-content {
+    text-align: left;
+  }
+
+  .hero__form-content {
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 500px) {
+  .hero {
+    padding-top: 107px;
+  }
+
+  .hero__title {
+    font-size: 60px;
+  }
+
+  .hero__subtitle {
+    font-size: 40px;
+  }
+
+  .hero__text-bonus {
+    font-size: 30px;
+  }
+
+  .hero__img img {
+    margin-top: -50px;
+  }
+
+  .hero__form-title {
+    font-size: 32px;
+  }
+
+  .hero__form-content p {
+    font-size: 22px;
+  }
+
+  .hero__form-content button {
+    font-size: 25px;
+  }
+
+  .hero__step {
+    margin-right: 0;
+  }
+}
